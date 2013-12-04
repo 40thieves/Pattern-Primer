@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="utf-8">
 <title>Pattern Primer</title>
-<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="assets/css/global.css">
 <style>
 .pattern {
 	clear: both;
@@ -22,6 +23,7 @@
 }
 </style>
 </head>
+
 <body>
 
 <?php
