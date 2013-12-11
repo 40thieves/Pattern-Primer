@@ -1,3 +1,6 @@
+/*
+Header bar
+ */
 .header-bar {
 	width: 100%;
 	// position: absolute; // Commented out so that it appears in pattern box, not along top
@@ -48,6 +51,55 @@
 
 		&:nth-child(10) {
 			background: $light-grey;
+		}
+	}
+}
+
+/*
+Logo
+ */
+.logo {
+	margin-top: 55px;
+	margin-bottom: 10px;
+	line-height: 0.7em;
+	font-size: 2.5rem;
+
+	a {
+		color: $main-header-color;
+		line-height: 1em;
+		display: inline-block;
+
+		& > span {
+			float: left;
+		}
+
+		.name {
+			width: 150px;
+			text-align: right;
+		}
+
+		.pipe {
+			border-left: 1px solid $main-header-color;
+			height: 77px;
+			margin: 0 10px;
+		}
+
+		.nick {
+			width: 155px;
+			text-align: left;
+		}
+
+		.thin {
+			font-weight: lighter;
+			font-style: italic;
+		}
+
+		&:visited {
+			color: $main-header-color;
+		}
+
+		&:hover, &:focus {
+			color: $main-header-highlight-color;
 		}
 	}
 }
