@@ -4,8 +4,11 @@
 <head>
 <meta charset="utf-8">
 <title>Pattern Primer</title>
-<link rel="stylesheet" href="assets/css/global.css">
+<link rel="stylesheet" href="assets/css/style.css">
 <style>
+body {
+	padding: 3rem 5rem;
+}
 .pattern {
 	clear: both;
 	overflow: hidden;

@@ -2,6 +2,7 @@
 
 $config = [
 	'file_order' => [
+		'header-bar',
 		'heading-1',
 		'heading-2',
 		'heading-3',
