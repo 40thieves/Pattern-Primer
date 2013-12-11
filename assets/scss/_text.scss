@@ -1,3 +1,20 @@
 .caps {
 	text-transform: uppercase;
 }
+
+/*
+Links
+ */
+a {
+	color: $link-color;
+	text-decoration: none;
+
+	&:hover, &:focus {
+		color: $link-highlight-color;
+		text-decoration: none;
+	}
+}
+
+p, ul, ol {
+	margin: 1em 0;
+}
