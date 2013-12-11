@@ -34,19 +34,14 @@ blockquote {
 		font-style: italic;
 	}
 
-	small {
+	footer {
 		display: inline-block;
 		margin: 0.3em 0 0.3em 0.7em;
 		font-size: 0.9em;
 		color: $med-grey;
 
 		cite {
-			font-weight: bold;
 			font-style: normal;
-
-			a {
-				font-weight: normal;
-			}
 		}
 	}
 }
