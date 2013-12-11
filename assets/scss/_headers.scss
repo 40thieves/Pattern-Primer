@@ -1,21 +1,32 @@
+h1, h2, h3, h4, h5, h6 {
+	text-rendering: optimiseLegibility;
+	line-height: 1;
+	margin-top: 0;
+	font-weight: 500;
+}
+
 h1 {
-	font-family: $roboto;
-	font-weight: normal;
-	font-size: 2.5em;
-	line-height: 1.125;
-	padding-top: 1em;
-	margin-bottom: 0.3em;
-	color: #444;
-	border-bottom: 0.2em solid #693;
+	font-size: 3rem;
+	line-height: 1.2em;
 }
 
 h2 {
-	font-family: $roboto;
-	font-weight: normal;
-	font-size: 1.875em;
-	line-height: 1.5;
-	padding-top: 0.8333em;
-	margin-bottom: 0.7em;
-	color: #555;
-	border-bottom: 0.13333em solid #693;
+	font-size: 1.7rem;
+	line-height: 1.2em;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.3rem;
+}
+
+h5 {
+	font-size: 1.2rem;
+}
+
+h6 {
+	font-size: 1.05rem;
 }

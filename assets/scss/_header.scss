@@ -3,7 +3,8 @@ Header bar
  */
 .header-bar {
 	width: 100%;
-	// position: absolute; // Commented out so that it appears in pattern box, not along top
+	// Commented out so that it appears in pattern box, not along top
+	// position: absolute;
 	// top: 0;
 	// left: 0;
 
@@ -59,9 +60,6 @@ Header bar
 Logo
  */
 .logo {
-	margin-top: 55px;
-	margin-bottom: 10px;
-	line-height: 0.7em;
 	font-size: 2.5rem;
 
 	a {
