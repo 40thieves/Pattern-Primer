@@ -101,7 +101,7 @@ Code
  */
 code, tt {
 	padding: 1px 3px;
-	font-family: Inconsolata, monospace, sans-serif;
+	font-family: $monospace;
 	font-size: 0.85em;
 	white-space: pre;
 	border: 1px solid $light-grey;
@@ -114,7 +114,7 @@ pre {
 	border: 1px solid $light-grey;
 	width: 100%;
 	padding: 10px;
-	font-family: Inconsolata, monospace, sans-serif;
+	font-family: $monospace;
 	font-size: 0.9em;
 	white-space: pre;
 	overflow: auto;
