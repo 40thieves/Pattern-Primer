@@ -12,6 +12,7 @@ $config = [
 		'heading-6',
 		'text',
 		'blockquote',
+		'code-sample',
 		'list-ordered',
 		'list-unordered',
 		'form-text',
