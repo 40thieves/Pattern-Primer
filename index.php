@@ -48,7 +48,7 @@ while (false !== ($file = readdir($handle)))
 foreach ($config['file_order'] as $filename)
 {
 	$file = $filename . '.html';
-	echo '<div class="pattern">';
+	echo '<div class="pattern" id="' . $filename . '"">';
 	echo 	'<div class="display">';
 				include('patterns/' . $file);
 	echo 	'</div>';
