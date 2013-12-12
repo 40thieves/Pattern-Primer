@@ -5,6 +5,17 @@ General
 	text-transform: uppercase;
 }
 
+p, ul, ol {
+	margin: 1em 0;
+}
+
+/*
+Lists
+ */
+ol ol, ul ul, ul ol, ol ul {
+	margin: 0.4em 0;
+}
+
 /*
 Headers
  */
@@ -52,10 +63,6 @@ a {
 		color: $link-highlight-color;
 		text-decoration: none;
 	}
-}
-
-p, ul, ol {
-	margin: 1em 0;
 }
 
 /*
