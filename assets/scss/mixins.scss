@@ -47,18 +47,3 @@ $highlight-color:				#ffc336;
 $sans-serif:	"Helvetica Neue", Helvetica, Arial, sans-serif;
 $roboto:		"Roboto", Helvetica, Arial, sans-serif;
 $serif:			"Georgia", Cambria, Times New Roman, Times, serif;
-
-//////////////
-// CLEARFIX //
-//////////////
-
-.clearfix {
-	zoom: 1;
-	&:before {
-		content: "";
-		display: table;
-	}
-	&:after {
-		clear: both;
-	}
-}

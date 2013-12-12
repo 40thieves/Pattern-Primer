@@ -10,3 +10,17 @@ body {
 	line-height: 1.5em;
 	color: $dark-grey;
 }
+
+/*
+Clearfix
+ */
+.clearfix {
+	zoom: 1;
+	&:before {
+		content: "";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
