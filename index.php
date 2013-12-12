@@ -23,6 +23,8 @@ body {
 }
 .pattern .source textarea {
 	width: 90%;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 0.8rem;
 }
 </style>
 </head>
