@@ -15,6 +15,8 @@ $config = [
 		'code-sample',
 		'list-ordered',
 		'list-unordered',
+		'image',
+		'multiple-images',
 		'form-text',
 		'form-textarea',
 		'form-select',

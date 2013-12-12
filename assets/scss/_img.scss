@@ -1,0 +1,11 @@
+img {
+	display: block;
+	max-width: 100%;
+	margin: 10px auto;
+}
+
+.img.multiple img {
+	float: left;
+	width: calc(50% - 4%);
+	padding: 2%;
+}
