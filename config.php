@@ -17,7 +17,7 @@ $config = [
 		'list-unordered',
 		'image',
 		'multiple-images',
-		'date',
+		'post-date',
 		'form-text',
 		'form-textarea',
 		'form-select',
