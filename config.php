@@ -18,6 +18,7 @@ $config = [
 		'image',
 		'multiple-images',
 		'post-date',
+		'divider',
 		'form-text',
 		'form-textarea',
 		'form-select',

@@ -130,3 +130,15 @@ pre code, tt {
 	border: none;
 	padding: 0;
 }
+
+/*
+Divider
+ */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid $lighter-grey;
+	margin: 3.2em 0;
+	padding: 0;
+}
