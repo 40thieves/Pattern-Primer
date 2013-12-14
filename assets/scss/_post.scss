@@ -1,0 +1,12 @@
+.post-meta {
+	display: inline-block;
+	width: 7.5%;
+	border-top: 1px solid $turqoise;
+	line-height: 1.1em;
+	text-align: center;
+
+	time {
+		color: $light-med-grey;
+		font-size: 0.8rem;
+	}
+}
