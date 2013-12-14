@@ -103,3 +103,33 @@ Logo
 		}
 	}
 }
+
+/*
+Top Nav
+ */
+.nav {
+	&.top-nav {
+		padding-left: 0;
+
+		a {
+			padding: 6px;
+		}
+	}
+
+	li {
+		&.active, &.active a	 {
+			color: $nav-highlight-color;
+		}
+
+		a {
+			display: block;
+			padding: 10px;
+			color: $nav-color;
+
+			&:hover, &:focus {
+				color: $nav-highlight-color;
+			}
+		}
+	}
+
+}

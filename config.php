@@ -10,6 +10,7 @@ $config = [
 		'heading-4',
 		'heading-5',
 		'heading-6',
+		'top-nav',
 		'text',
 		'blockquote',
 		'code-sample',
