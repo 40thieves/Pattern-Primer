@@ -19,6 +19,7 @@ $config = [
 		'multiple-images',
 		'post-date',
 		'divider',
+		'icon-font',
 		'form-text',
 		'form-textarea',
 		'form-select',
