@@ -134,3 +134,35 @@ Top Nav
 	}
 
 }
+
+/*
+Pagination
+ */
+.pagination {
+	position: relative;
+	width: 20%;
+	max-width: 250px;
+	margin: 0 auto;
+	font-size: 0.8rem;
+	color: $light-med-grey;
+	text-align: center;
+}
+
+.older-posts, .newer-posts {
+	position: absolute;
+	display: inline-block;
+	font-size: 1.1rem;
+}
+
+.older-posts {
+	right: 0;
+}
+
+.page-number {
+	display: inline-block;
+	padding: 2px 0;
+}
+
+.newer-posts {
+	left: 0;
+}

@@ -30,8 +30,8 @@ $config = [
 		'form-number',
 		'form-buttons',
 		'pagination-first',
-		'pagination-last',
 		'pagination',
+		'pagination-last',
 		'feedback',
 		'feedback-error',
 	]
