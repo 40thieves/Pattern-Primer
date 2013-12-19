@@ -119,6 +119,7 @@ Top Nav
 	li {
 		&.active, &.active a	 {
 			color: $nav-highlight-color;
+			cursor: pointer;
 		}
 
 		a {
